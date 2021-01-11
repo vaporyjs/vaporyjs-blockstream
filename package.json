@@ -1,7 +1,8 @@
 {
-  "name": "ethereumjs-blockstream",
+  "name": "vaporyjs-blockstream",
+  "namespace": "vaporyjs",
   "version": "4.0.1",
-  "description": "A library to turn an unreliable remote source of Ethereum blocks into a reliable stream of blocks with removals on re-orgs and backfills on skips.",
+  "description": "A library to turn an unreliable remote source of Vapory blocks into a reliable stream of blocks with removals on re-orgs and backfills on skips.",
   "main": "output/source/index.js",
   "types": "output/source/index.d.ts",
   "scripts": {
@@ -11,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-blockstream.git"
+    "url": "git+https://github.com/vaporyjs/vaporyjs-blockstream.git"
   },
   "author": "Micah Zoltu",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-blockstream/issues"
+    "url": "https://github.com/vaporyjs/vaporyjs-blockstream/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-blockstream#readme",
+  "homepage": "https://github.com/vaporyjs/vaporyjs-blockstream#readme",
   "devDependencies": {
     "@types/chai": "3.4.35",
     "@types/chai-as-promised": "0.0.30",
